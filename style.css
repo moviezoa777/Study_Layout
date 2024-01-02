@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* css 선택자 : html 명령어를 선택해서 스타일을 정의하는 css 문법
+
+    1.전체선택자 : * 
+    2.태그 선택자 : p 또는 h1 과 같은 명령어 ex) <p> </p>, <h1> </h1>
+    3.클래스 선택자 : .어떤 이름
+    4.아이디 선택자 : #어떤 이름
+    5.그룹선택자 : , (콤마)
+*/ 
+
+.title{
+    color:red;
+    background-color: greenyellow;
+    height: 200px;
+    
+}
+
+.first_p{
+    background-color: cadetblue;
+    display: inline;
+    height: 200px;
+}
+.second_p{
+    background-color: cornflowerblue;
+    display: inline-block;
+    height: 200px;
+}
+
+.word{
+    background-color: gold;
+    color: red;
+}
+
+div{
+    background-color: blueviolet;
+    margin: 1rem;!
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
